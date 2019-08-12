@@ -5,23 +5,119 @@
 	<meta name="viewport" content="width-device-width, initial-scale=1">
 	<title>Semantic Elements</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 
 <body>
 	<h1>Semantic Elements</h1>
-	<div class="bodyContainer">
-		<header>Header</header>
+	<div id="home" class="bodyContainer">
+		<header><img id="logo" src="images/1.jpg" alt="logo" /></header>
 
 		<main>
-			<nav>Nav</nav>
+			<nav>
+				<ul>
+					<li><a href="#home">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">MENU</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+			</nav>
 			
-			<section>Section</section>
+			<div class="section">
+				<section id="sec1">
+					<h1>Section 1</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui blanditiis expedita, porro, ea asperiores rerum officia quod dicta doloribus non provident libero minima ipsum corporis laudantium cum aspernatur sit.</p>
+				</section>
+
+				<section id="sec2">
+					<h1>Section 2</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui blanditiis expedita, porro, ea asperiores rerum officia quod dicta doloribus non provident libero minima ipsum corporis laudantium cum aspernatur sit.</p>
+				</section>
+
+				<section id="sec3">
+					<h1>Section 3</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui blanditiis expedita, porro, ea asperiores rerum officia quod dicta doloribus non provident libero minima ipsum corporis laudantium cum aspernatur sit.</p>
+
+				<h3>Contact</h3>
+				<form>
+					<label for="name" class="contact">Name</label>
+					<input type="text" class="contact_text" id="name">
+
+					<br>
+
+					<label for="email" class="contact">Email</label>
+					<input type="text" class="contact_text" id="email"> 
+
+					<br>
+					
+					<label for="phone" class="contact">Phone</label>
+					<input type="text" class="contact_text" id="phone"> 
+
+					<br>
+					
+					<label for="message" class="contact">Message</label>
+					
+					<textarea id="message" rows="10" cols="30">Enter your message here</textarea>
+				
+					<br>
+
+					<input type="submit" value="Summit" class="sign_button">
+
+				</form>
+
+
+				</section>
+			</div>
+
 	
-			<aside>Aside</aside>
+			<aside>
+				<img class="asideImage" src="images/2.jpg" alt="photo">
+
+				<h3>Sign In</h3>
+				<form>
+					<label for="username">Username</label>
+					<input type="text" id="username">
+
+					<br>
+
+					<label for="password">Password</label>
+					<input type="text" id="password"> 
+
+					<br>
+
+					<input type="submit" value="Summit" class="sign_button">
+
+				</form>
+
+				<h3>Sign Up</h3>
+				<form>
+					<label for="username">Username</label>
+					<input type="text" id="username1">
+
+					<br>
+
+					<label for="password">Password</label>
+					<input type="text" id="password2"> 
+
+					<br>
+					
+					<label for="cpassword">Confirm Password</label>
+					<input type="text" id="confirmP"> 
+
+					<input type="submit" value="Summit" class="sign_button">
+
+				</form>
+			</aside>
+
+			
+
 		</main>
 
-		<footer>Footer</footer>
+		<footer>
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-twitter"></i>
+		</footer>
 
 
 	</div>
